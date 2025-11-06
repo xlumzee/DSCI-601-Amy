@@ -71,26 +71,26 @@ The first training run (~15k environment steps) completes in under 10 minutes on
 
 Repository Layout
 
-├── Data/                  ##### raw & processed CSVs (≈ 12 MB compressed)
-│   ├── equities_raw/      ##### one CSV per ticker
-│   └── features.parquet   ##### merged feature matrix after pipeline
+├── Data/                  # raw & processed CSVs (≈ 12 MB compressed)
+│   ├── equities_raw/      # one CSV per ticker
+│   └── features.parquet   # merged feature matrix after pipeline
 │
-├── DataPipelines/         ##### notebooks & py scripts for EDA + feature eng.
+├── DataPipelines/         # notebooks & py scripts for EDA + feature eng.
 │   ├── DataViz_v2.ipynb
 │   └── DataPrep_v2.ipynb
 │
 ├── ProjectCode/
-│   ├── rl_env/            ##### OpenAI Gym-compatible environment
-│   ├── agents/            ##### DQN, PPO, A2C implementations (PyTorch)
-│   ├── baselines/         ##### Classical ML benchmarks
-│   ├── train.py           ##### CLI entry-point for RL training
-│   └── evaluate.py        ##### generates back-test charts & metrics
+│   ├── rl_env/            # OpenAI Gym-compatible environment
+│   ├── agents/            # DQN, PPO, A2C implementations (PyTorch)
+│   ├── baselines/         # Classical ML benchmarks
+│   ├── train.py           # CLI entry-point for RL training
+│   └── evaluate.py        # generates back-test charts & metrics
 │
-├── tests/                 ##### lightweight unit tests for pipelines & envs
-├── Research Papers/       ##### key literature (PDFs) that informed design
-├── presentation/          ##### slides for academic defence
-├── requirements.txt       ##### pinned, reproducible environment
-└── README.md              ##### you are here
+├── tests/                 # lightweight unit tests for pipelines & envs
+├── Research Papers/       # key literature (PDFs) that informed design
+├── presentation/          # slides for academic defence
+├── requirements.txt       # pinned, reproducible environment
+└── README.md              # you are here
 
 
 ⸻
@@ -152,3 +152,4 @@ Pull requests are welcome! Please open an issue first to discuss major changes. 
 License
 
 This project is licensed under the MIT License – see LICENSE for details.
+
